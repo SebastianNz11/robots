@@ -1,19 +1,17 @@
 .head-color {
-  background-image: linear-gradient(
-    to bottom,
-    #11123c,
-    #171d57,
-    #1c2873,
-    #1e3591,
-    #1b42b1,
-    #1d4dc3,
-    #1e59d5,
-    #1c65e7,
-    #2b71ee,
-    #397ef4,
-    #478afa,
-    #5596ff
-  );
+  background-image: linear-gradient(to bottom,
+      #11123c,
+      #171d57,
+      #1c2873,
+      #1e3591,
+      #1b42b1,
+      #1d4dc3,
+      #1e59d5,
+      #1c65e7,
+      #2b71ee,
+      #397ef4,
+      #478afa,
+      #5596ff);
 }
 
 .navbar-toggler {
@@ -26,13 +24,11 @@
 }
 
 .efecto-espejo {
-  -webkit-box-reflect: below -25px -webkit-gradient(
-      linear,
+  -webkit-box-reflect: below -25px -webkit-gradient(linear,
       left top,
       left bottom,
       from(transparent),
-      to(rgba(255, 255, 255, 0.5))
-    );
+      to(rgba(255, 255, 255, 0.5)));
 }
 
 .fuente {
@@ -52,11 +48,13 @@
 .scale-up-horizontal-left {
   animation: scale-up-horizontal-left 3.2s;
 }
+
 @keyframes scale-up-horizontal-left {
   0% {
     transform: scaleX(0.4);
     transform-origin: left center;
   }
+
   100% {
     transform: scaleX(1);
     transform-origin: left center;
