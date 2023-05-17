@@ -49,21 +49,7 @@
   -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.57);
 }
 
-.scale-up-horizontal-left {
-  animation: scale-up-horizontal-left 3.2s;
-}
 
-@keyframes scale-up-horizontal-left {
-  0% {
-    transform: scaleX(0.4);
-    transform-origin: left center;
-  }
-
-  100% {
-    transform: scaleX(1);
-    transform-origin: left center;
-  }
-}
 
 .bg-part2 {
   background-image: linear-gradient(
